@@ -1,6 +1,11 @@
 # TextCRS
 
-This repository is the official implementation of [Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks (IEEE S&amp;P 2024)](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a053/1RjEas5x5aU), Xinyu Zhang, Hanbin Hong, Yuan Hong, Peng Huang, Binghui Wang, Zhongjie Ba, Kui Ren.
+This repository is the implementation and extension of Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks. Project done as part of Clemson CPSC 8570 NTS course.
+Group members:
+- Danish Bhatkar
+- Gaurav Patel
+- Sarthak Nikhal
+- Mithilesh Biradar
 
 ## Installation
 
@@ -13,10 +18,8 @@ Install all dependencies: ```pip install -r requirements.txt```
 ### Prepare datasets:
 
 Textual classification datasets have been downloaded in ```/datasets```: AG’s News and IMDB. 
-It can also be downloaded in Baidu Wangpan, link: https://pan.baidu.com/s/1bQ9jGH88OwIQmXe02Seumw?pwd=nff7, extraction code: nff7
-
-### Prepare adversarial examples and pre-trained matrices
-Other data can be found in the folder in Baidu Wangpan, link: https://pan.baidu.com/s/1F7sIOmGxK-8CRWWLMV4NcQ?pwd=ul7o, extraction code: ul7o 
+The data/xinyu/results has no data as it has to be downloaded seperately.
+Datasets in pickle format can be downloaded from https://drive.google.com/file/d/1YkIDHRc2VwQizK6YTwrTWu9w6Jk3KBWV/view?usp=sharing.
 
 ### Repeat experiments:
 
@@ -108,5 +111,6 @@ sh ./run_shell/certify/certify/noise4/lstm_agnews_certify.sh
 ## Acknowledgement
 
 [TextAttack](https://github.com/QData/TextAttack)
+[Original Repo](https://github.com/Eyr3/TextCRS)
 
 
