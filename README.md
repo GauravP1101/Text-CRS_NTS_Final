@@ -1,25 +1,27 @@
-# TextCRS
+# 🦾 TextCRS
 
-This repository is the implementation and extension of Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks. Project done as part of Clemson CPSC 8570 NTS course.
-Group members:
-- Danish Bhatkar
-- Gaurav Patel
-- Sarthak Nikhal
-- Mithilesh Biradar
+This repository provides the official implementation and extension for **Text-CRS: A Generalized Certified Robustness Framework against Textual Adversarial Attacks**. The project was completed as part of the Clemson CPSC 8570 NTS course.
 
-## Installation
+**Group members:**  
+- Danish Bhatkar  
+- Gaurav Patel  
+- Sarthak Nikhal  
+- Mithilesh Biradar  
 
-Our code is implemented and evaluated on Python 3.9 and PyTorch 1.11.
+## ⚙️ Installation
 
-Install all dependencies: ```pip install -r requirements.txt```
+Our code is implemented and evaluated on **Python 3.9** and **PyTorch 1.11**.
 
-## Usage
+Install all dependencies:  
+```pip install -r requirements.txt```
 
-### Prepare datasets:
+## 🚀 Usage
 
-Textual classification datasets have been downloaded in ```/datasets```: AG’s News and IMDB. 
-The data/xinyu/results has no data as it has to be downloaded seperately.
-Datasets in pickle format can be downloaded from https://drive.google.com/file/d/1YkIDHRc2VwQizK6YTwrTWu9w6Jk3KBWV/view?usp=sharing.
+### 🗃️ Prepare Datasets
+
+Text classification datasets are pre-downloaded to `./datasets`: **AG’s News** and **IMDB**.  
+The `data/xinyu/results` directory is empty and must be populated separately.  
+Pickled datasets can be downloaded [here](https://drive.google.com/file/d/1YkIDHRc2VwQizK6YTwrTWu9w6Jk3KBWV/view?usp=sharing).
 
 ### Repeat experiments:
 
