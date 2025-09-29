@@ -23,17 +23,17 @@ Text classification datasets are pre-downloaded to `./datasets`: **AG’s News**
 The `data/xinyu/results` directory is empty and must be populated separately.  
 Pickled datasets can be downloaded [here](https://drive.google.com/file/d/1YkIDHRc2VwQizK6YTwrTWu9w6Jk3KBWV/view?usp=sharing).
 
-### Repeat experiments:
+### 🔁 Repeat Experiments
 
-#### Train 
+#### 🏋️‍♂️ Train
 
-Select training parameters.
+Select your training parameters:
 
-- the noise type (e.g., ```-if_addnoise 5 or 8 or 7 or 4```)
-- the model (e.g., ```-model_type lstm or bert or cnn```)
-- the dataset (e.g., ```-dataset amazon agnews or amazon or imdb```)
+- Noise type (e.g., ```-if_addnoise 5, 8, 7, 4```)
+- Model (```-model_type lstm```, ```bert```, or ```cnn```)
+- Dataset (```-dataset agnews, amazon, or imdb```)
 
-Then, train the smoothed classifier using the following commands:
+To train the smoothed classifier, run commands such as:
 
 1. Certified Robustness to Synonym Substitution, noise parameters: ```-syn_size 50, 100, 250``` (i.e., $s$ in Table 4).
 
